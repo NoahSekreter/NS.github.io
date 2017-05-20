@@ -1,0 +1,54 @@
+﻿body {
+}
+
+@media screen and (max-width: 1280px) {
+    .nav-img {
+        display: none;
+        position: absolute;
+    }
+}
+
+#image-container{
+    text-align: center;
+}
+
+.nav-img {
+    border-radius: 50%;
+    border: 2px solid #222655;
+    margin-bottom: 30px;
+}
+
+/*Properlly positions the particle effects on top of the page*/
+canvas.pg-canvas {
+    position: absolute;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/*Changing the color scheme*/
+#one {
+    background-color: #2b306b;
+}
+
+#two section:first-of-type {
+    background-color: #41499c;
+}
+
+#three {
+    background-color: #2a3963;
+}
+
+#footer {
+    background-color: #1f2564;
+}
+
+.menu {
+    color: #808080 !important;
+}
+
+/*Added Transitions*/
+input, textarea {
+    transition: .2s all linear;
+}
